@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+/* Css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body */
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  color: #fff;
+}
+
+/* colour */
+.color {
+  color: dodgerblue;
+}
+/* nav bar  */
+#navbar {
+  top: 0;
+  background-color: #333;
+  height: 75px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid dodgerblue;
+  position: fixed;
+  width: 99.9%;
+  margin: none;
+  z-index: 10;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  position: relative;
+  right: 2vw;
+}
+.icon {
+  color: #ed55bd;
+}
+span i {
+  margin: 10px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul li a {
+  padding: 15px 15px;
+}
+ul li a:hover {
+  background-color: #ed55bd;
+  border-radius: 5px;
+}
+/* image section */
+#showcase {
+  background: url(./main\ photo.jpg) no-repeat center center/cover;
+
+  height: 100vh;
+  width: 100%;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.main-heading {
+  font-size: 3.2rem;
+  position: relative;
+  top: 5vh;
+}
+.main-para {
+  font-size: 1.2rem;
+  position: relative;
+
+  top: 8vh;
+}
+
+.btn {
+  color: #fff;
+  background-color: dodgerblue;
+  border: none;
+  font-size: medium;
+  position: relative;
+  left: 28vw;
+  padding: 10px 20px;
+  border-radius: 5px;
+  top: 5vh;
+}
+.btn:hover {
+  background-color: #ed55bd;
+}
+/* section-what we do */
+.work {
+  color: black;
+  height: 40vh;
+  padding: 0px 150px 10px 150px;
+}
+.middle-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 10px 0px 20px 0px;
+}
+.what {
+  color: dodgerblue;
+}
+.types-of-work {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+/* icon setting */
+.bank {
+  background-color: dodgerblue;
+  padding: 10px 5px;
+  font-size: 2em;
+  border-radius: 50%;
+}
+.portfolio {
+  background-color: dodgerblue;
+  padding: 10px 5px;
+  font-size: 2em;
+  border-radius: 50%;
+}
+
+.tax {
+  background-color: dodgerblue;
+  padding: 10px 5px;
+  font-size: 2em;
+  border-radius: 50%;
+}
+/* position of icons text */
+
+.investment {
+  text-align: center;
+}
+.p-management {
+  text-align: center;
+}
+.tax-dealing {
+  text-align: center;
+}
+.heading {
+  margin: 10px;
+}
+
+.lorem {
+  font-family: sans-serif;
+}
+/* section who we are */
+.who-we-are {
+  display: flex;
+  height: 60vh;
+}
+.image {
+  border-color: black;
+  height: 60vh;
+  width: 90vw;
+}
+.intro {
+  background-color: #333;
+  color: black;
+  display: column;
+  padding: 10px 30px;
+  color: #fff;
+}
+.who-heading {
+  font-size: 2em;
+  padding: 10px 0px 10px 0px;
+}
+
+.team {
+  font: -80rem;
+  padding: 15px 0px 15px 0px;
+}
+.dots {
+  color: darkslategray;
+  padding-bottom: 10px;
+}
+/* our clients */
+
+#clients {
+  height: 40vh;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px;
+}
+.size {
+  height: 120px;
+  width: 120px;
+}
+.client-heading {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+/* contact us */
+.contact {
+  height: 55vh;
+  display: flex;
+}
+.form {
+  background-color: dodgerblue;
+  width: 55%;
+  margin: 0px;
+  padding: 0px 30px;
+  height: 55vh;
+}
+.fill-form {
+  color: black;
+  font-size: 1.5rem;
+  margin: 30px 0px 10px 0px;
+}
+
+.img-form {
+  height: 55vh;
+  width: 50%;
+  margin: 0px;
+}
+
+.input-tag {
+  width: 99.4%;
+  padding: 5px 5px;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+.btn-tag {
+  width: 101%;
+  padding: 7px 0px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  border: black 1px solid;
+}
+.btn-tag:hover {
+  background-color: #fff;
+  color: black;
+  border: black 1px solid;
+}
+/* footer */
+.footer {
+  background-color: #333;
+  height: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
